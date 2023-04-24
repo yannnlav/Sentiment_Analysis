@@ -30,7 +30,7 @@ def app():
     stopwords_list.remove('not')
     tokenizer = ToktokTokenizer()
 
-    st.title("Sentiment Analysis on the PBBM's Competency")      
+    st.title("Sentiment Analysis on PBBM's Competency")      
     st.subheader("(c) 2023 Ariane Marie L. Lavilla, BSCS 3A - AI")
 
     st.subheader('Sentiment Analysis')
