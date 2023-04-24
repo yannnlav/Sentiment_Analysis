@@ -30,8 +30,8 @@ def app():
     stopwords_list.remove('not')
     tokenizer = ToktokTokenizer()
 
-    st.title("Sentiment Analysis on the Uniform Policy")      
-    st.subheader("(c) 2023 Samuel Jeth A. Datiles BSCS-3A")
+    st.title("Sentiment Analysis on the PBBM's Competency")      
+    st.subheader("(c) 2023 Ariane Marie L. Lavilla, BSCS 3A - AI")
 
     st.subheader('Sentiment Analysis')
     st.write("Sentiment analysis is the process of determining the emotional tone of a \
@@ -112,7 +112,7 @@ def app():
             return text
         
         if st.button('Load Dataset'):  
-            df = pd.read_csv('Uniform Policy.csv')
+            df = pd.read_csv('survey_data.csv')
 
             #remember this very useful function to randomly rearrange the dataset
             train = shuffle(df)
