@@ -118,7 +118,7 @@ def app():
             train = shuffle(df)
             
             
-            st.write('There were 40 responses and we display them in the table below.')
+            st.write('There were 50 responses and they are displayed in the table below.')
             st.dataframe(train, use_container_width=True)
    
             st.write('Dataset shape: ')
